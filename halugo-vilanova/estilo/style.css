@@ -1,0 +1,164 @@
+@charset "utf8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+:root{
+    --cor0:#FF4000;
+    --cor1:#F9F9F9;
+
+    --font-padrão: 'Lato', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-padrão);
+}
+
+@media screen and (max-width: 760px) {
+    header, .section-footer01, .section-footer02 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    
+    }
+    
+}
+
+@media screen and (min-width: 760px) {
+    .div-footer02 {
+      text-align: right;
+    
+    }
+    
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: px;
+    padding: 20px 20px;
+    padding-bottom: 50px;
+    margin: auto;
+    width: 80vw;
+}
+
+
+header>.contato{
+    margin-top: 0px;
+    text-align: right;
+    padding: 20px 0px;
+}
+
+header>.contato .p1{
+    
+    font-size: 14px;
+
+}
+
+header>.contato .p2{
+
+    margin: auto;
+    font-size: 19px;
+    color: var(--cor0);
+    font-weight: bold;
+
+}
+
+.logo-whatsapp-pq{
+    margin: 5px 3px 0px 0px;
+}
+
+main{
+    margin: auto;
+    width: 80vw;
+    border-radius: 10px;
+    
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+}
+
+
+iframe{
+    display: block;
+    margin: auto;
+    height: 900px;
+    width: 100%;
+
+}
+
+footer{
+    margin-top: 30px;
+    background-color: var(--cor1);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+
+footer div{
+    padding-top: 10px;
+}
+
+footer section{
+    padding-top: 10px;
+}
+
+.section-footer01, .section-footer02{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    background-color: #FF4000;
+}
+
+.p-endereco{
+    padding: 10px;
+
+}
+
+.fa-brands{
+    font-size: 2em;
+    padding: 10px 10px;
+    margin-top: 10px;
+    
+    border-radius: 25%;
+    color: var(--cor0);
+}
+
+.fa-brands:hover{
+    color: #F9F9F9;
+    background-color: var(--cor0);
+}
+
+a{
+    color: var(--cor0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a-footer-tel{
+    color: rgba(0, 0, 0, 0.601);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.a-footer-tel:hover{
+    color: var(--cor0);
+    text-decoration: none;
+    font-weight: bold;
+}
