@@ -11,22 +11,29 @@
 </head>
 <body>
     <header>
-        <div>
-            
-                <img src="https://imobzi.storage.googleapis.com/accounts/ac-jmpg21331leit/public/logo.png" alt="Logo Halugo" id="logo">
-            
-        </div>
-        <div class="contato">
-            <p class="p1">
-                Entre em contato conosco
-            </p>
-            <p class="p2">
-                <img class="logo-whatsapp-pq" src="https://imobzi.storage.googleapis.com/image/whatsapp.png" alt="Icone WhatsApp">
-                <a href="https://api.whatsapp.com/send/?phone=5547992101900&text&type=phone_number&app_absent=0" target="_blank">(47) 99210-1900</a>
-            </p>
-        </div>
+        <nav>
 
-
+            <div class="logo">
+              <img src="https://imobzi.storage.googleapis.com/accounts/ac-jmpg21331leit/public/logo.png" alt="Logo Halugo">
+            </div>
+          
+             <ul class="menu">
+                <li>Home</li>
+                <li>Empresa</li>
+                <li>Imóveis</li>
+                <li>Serviços</li>
+                <li>Contato</li>
+            </ul>
+          
+          
+            <div class="contato">
+              <p>Entre em contato conosco</p>
+              <a class="acontato" href=""><img src="https://imobzi.storage.googleapis.com/image/whatsapp.png" alt="Logo WhatsApp">
+              <p> 47 9 9192-6083 </p></a>
+               
+            </div>
+            
+          </nav>
     </header>
     <main>
         <section class="main-section-01">
@@ -44,7 +51,16 @@
         </section>
         <section class="main-section-03">
 
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfFqlk81nxoBoKTAoEA7l8Bcx4LyPjwprDBnWgMf_NCv_k59Q/viewform" frameborder="0" scrolling=""></iframe>
+            <form action="cadastro.php" method="post">
+
+                <label for="nome">Nome Completo</label>
+                <input type="text" name="nome" id="inome">
+
+                
+
+
+            </form>
+            
 
         </section>
     </main>
